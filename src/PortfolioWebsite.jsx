@@ -202,7 +202,7 @@ export default function PortfolioWebsite() {
                   </div>
 
                   <h3 className="text-2xl font-bold">
-                    {project === 1 ? 'Thiết kế bao bì sản phẩm' : project === 2 ? 'Photobook' : 'Hồ sơ cao cấp'}
+                    {project === 1 ? 'Thiết kế bao bì sản phẩm' : project === 2 ? 'Photobook' : 'Art Book'}
                   </h3>
 
                   <p className="text-gray-400 leading-relaxed">
@@ -210,7 +210,7 @@ export default function PortfolioWebsite() {
                       ? 'Bộ mockup bao bì thực phẩm hữu cơ mang phong cách mộc mạc và thân thiện môi trường, sử dụng tông xanh – nâu tự nhiên kết hợp logo mềm mại tạo cảm giác tươi sạch, organic và gần gũi với người tiêu dùng.'
                       : project === 2
                       ? 'Khoảnh khắc ghi lại vẻ đẹp trang nghiêm và hiện đại của Dinh Độc Lập dưới bầu trời trong xanh, nổi bật với hàng cờ đỏ và không gian lịch sử mang đậm dấu ấn Việt Nam.'
-                      : 'Trải nghiệm hồ sơ tương lai với hoạt ảnh mượt mà, giao diện glassmorphism và tương tác đắm chìm.'
+                      : 'Hình ảnh mang cảm giác nhẹ nhàng và yên bình, khắc họa chú mèo lặng lẽ bên khung cửa sổ với ánh sáng tự nhiên tạo nên không gian đầy chất thơ và thư giãn.'
                     }
                   </p>
 
