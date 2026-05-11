@@ -236,18 +236,15 @@ export default function PortfolioWebsite() {
           </div>
 
           <div className="space-y-10 relative border-l border-white/10 pl-10">
-            {['Chuyên gia Frontend cấp cao', 'Nhà thiết kế UI/UX', 'Nhà phát triển sáng tạo'].map((job, index) => (
+            {['Chuyên gia thiết kế và chỉnh sửa ảnh', 'Tốt nghiệp trường đại học Gia Định', 'Làm việc tại Garena', 'Trở thành nhà sáng tạo nội dung'].map((job, index) => (
               <div
                 key={job}
                 className="relative p-8 rounded-[30px] border border-white/10 bg-white/5 backdrop-blur-xl"
               >
                 <div className="absolute -left-[50px] top-10 w-5 h-5 rounded-full bg-gradient-to-r from-red-500 to-orange-400 shadow-[0_0_20px_rgba(255,80,0,0.8)]"></div>
 
-                <p className="text-orange-400 mb-2">202{index + 2} - Hiện tại</p>
+                <p className="text-orange-400 mb-2">202{index + 3}</p>
                 <h3 className="text-2xl font-bold mb-3">{job}</h3>
-                <p className="text-gray-400 leading-relaxed">
-                  Xây dựng giao diện cao cấp và trải nghiệm số tập trung vào tương tác, hoạt ảnh và UX hiện đại.
-                </p>
               </div>
             ))}
           </div>
