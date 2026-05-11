@@ -58,9 +58,9 @@ export default function PortfolioWebsite() {
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <button className="px-8 py-4 rounded-2xl bg-gradient-to-r from-red-600 to-orange-500 hover:scale-105 transition duration-300 shadow-[0_0_40px_rgba(255,80,0,0.4)] font-semibold">
+              <a href="#projects" className="px-8 py-4 rounded-2xl bg-gradient-to-r from-red-600 to-orange-500 hover:scale-105 transition duration-300 shadow-[0_0_40px_rgba(255,80,0,0.4)] font-semibold inline-block text-center">
                 Xem Dự án
-              </button>
+              </a>
 
               <button className="px-8 py-4 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl hover:bg-white/10 transition duration-300">
                 Tải CV
@@ -139,7 +139,7 @@ export default function PortfolioWebsite() {
               Kỹ năng
             </div>
 
-            <h2 className="text-5xl font-bold">Chuyên môn kỹ thuật</h2>
+            <h2 className="text-5xl font-bold">Chuyên Môn Kỹ Thuật</h2>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -178,7 +178,7 @@ export default function PortfolioWebsite() {
               Dự án
             </div>
 
-            <h2 className="text-5xl font-bold">Công trình nổi bật</h2>
+            <h2 className="text-5xl font-bold">Sản Phẩm Nổi Bật</h2>
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8">
@@ -232,7 +232,7 @@ export default function PortfolioWebsite() {
               Kinh nghiệm
             </div>
 
-            <h2 className="text-5xl font-bold">Hành trình nghề nghiệp</h2>
+            <h2 className="text-5xl font-bold">Hành Trình Nghề Nghiệp</h2>
           </div>
 
           <div className="space-y-10 relative border-l border-white/10 pl-10">
@@ -259,7 +259,7 @@ export default function PortfolioWebsite() {
               Liên hệ
             </div>
 
-            <h2 className="text-5xl font-bold">Cùng xây dựng điều tuyệt vời</h2>
+            <h2 className="text-5xl font-bold">Cùng Xây Dựng Điều Tuyệt Vời</h2>
           </div>
 
           <div className="p-10 rounded-[40px] border border-white/10 bg-white/5 backdrop-blur-2xl space-y-8">
