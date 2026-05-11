@@ -222,7 +222,7 @@ export default function PortfolioWebsite() {
               >
                 <div className="overflow-hidden">
                   <img
-                    src={project === 1 ? 'https://drive.google.com/uc?export=view&id=1ghBtPj283g7Yx86yI_2mTPDWzBFiYv9x' : `https://picsum.photos/600/400?random=${project}`}
+                    src={project === 1 ? 'https://cdn.discordapp.com/attachments/1493471254470987797/1503364691790135459/mockup-2.jpg?ex=6a0314f9&is=6a01c379&hm=05321ad6159114658a6afe0df2b0c3b845b4fd43b08e73aa4f3c3efc88f5784b&' : project === 2 ? 'https://cdn.discordapp.com/attachments/1493471254470987797/1503368053742899310/9.jpg?ex=6a03181b&is=6a01c69b&hm=36f8db00f203638c7fd66fc4385808befc7bf599d4d94483d567a10ad0e9093a&' : `https://picsum.photos/600/400?random=${project}`}
                     alt="project"
                     className="w-full h-[260px] object-cover group-hover:scale-110 transition duration-700"
                   />
