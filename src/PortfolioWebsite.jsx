@@ -107,7 +107,7 @@ export default function PortfolioWebsite() {
 
             <div className="relative w-[350px] h-[450px] rounded-[40px] border border-white/10 bg-white/5 backdrop-blur-2xl overflow-hidden hover:rotate-2 hover:scale-105 transition duration-500 shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+                src="https://cdn.discordapp.com/attachments/1493471254470987797/1503369998574420029/IMG_1734103604675_17341039234472.jpg?ex=6a0319ea&is=6a01c86a&hm=8fcc15afadc19cffe0ff9d44f20226902f933bd4829e870ed30adf488004bb37&"
                   alt="ảnh đại diện"
                   className="w-full h-full object-cover"
                 />
@@ -222,7 +222,7 @@ export default function PortfolioWebsite() {
               >
                 <div className="overflow-hidden">
                   <img
-                    src={project === 1 ? 'https://cdn.discordapp.com/attachments/1493471254470987797/1503364691790135459/mockup-2.jpg?ex=6a0314f9&is=6a01c379&hm=05321ad6159114658a6afe0df2b0c3b845b4fd43b08e73aa4f3c3efc88f5784b&' : project === 2 ? 'https://cdn.discordapp.com/attachments/1493471254470987797/1503368053742899310/9.jpg?ex=6a03181b&is=6a01c69b&hm=36f8db00f203638c7fd66fc4385808befc7bf599d4d94483d567a10ad0e9093a&' : `https://picsum.photos/600/400?random=${project}`}
+                    src={project === 1 ? 'https://cdn.discordapp.com/attachments/1493471254470987797/1503364691790135459/mockup-2.jpg?ex=6a0314f9&is=6a01c379&hm=05321ad6159114658a6afe0df2b0c3b845b4fd43b08e73aa4f3c3efc88f5784b&' : project === 2 ? 'https://cdn.discordapp.com/attachments/1493471254470987797/1503368053742899310/9.jpg?ex=6a03181b&is=6a01c69b&hm=36f8db00f203638c7fd66fc4385808befc7bf599d4d94483d567a10ad0e9093a&' : 'https://cdn.discordapp.com/attachments/1493471254470987797/1503368101108912240/Untitled-1.jpg?ex=6a031826&is=6a01c6a6&hm=93013986a2b764286d0371b2961838048753ecc0bc8e5a9af65320aceb5b2ed0&'}
                     alt="project"
                     className="w-full h-[260px] object-cover group-hover:scale-110 transition duration-700"
                   />
