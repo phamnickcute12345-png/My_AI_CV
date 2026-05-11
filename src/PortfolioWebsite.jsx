@@ -3,21 +3,35 @@ export default function PortfolioWebsite() {
     <div className="bg-black text-white min-h-screen overflow-x-hidden scroll-smooth font-sans">
       {/* Nền hoạt hình */}
       <div className="fixed inset-0 -z-10 overflow-hidden bg-black">
-        <div className="absolute -left-40 -top-20 w-[680px] h-[680px] bg-red-500/15 blur-[90px] rounded-full"></div>
-        <div className="absolute -right-24 top-8 w-[520px] h-[520px] bg-orange-500/15 blur-[100px] rounded-full"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,120,80,0.08),_transparent_30%),radial-gradient(circle_at_bottom_right,_rgba(255,40,40,0.05),_transparent_35%),linear-gradient(180deg,_rgba(10,10,14,0.94),_rgba(0,0,0,0.75))]"></div>
 
-        <div className="absolute left-16 top-24 w-[260px] h-[240px] rounded-[40px] bg-white/5 border border-white/10 backdrop-blur-2xl shadow-[0_0_80px_rgba(255,120,0,0.2)]"></div>
-        <div className="absolute right-8 top-40 w-[180px] h-[180px] rounded-[40px] border border-orange-400/10 bg-orange-500/5 blur-3xl"></div>
-        <div className="absolute left-8 bottom-10 w-[120px] h-[120px] rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl shadow-[0_0_40px_rgba(255,80,0,0.15)]"></div>
+        <div className="absolute -left-32 top-16 h-[360px] w-[360px] rounded-full bg-red-500/15 blur-[120px]"></div>
+        <div className="absolute right-0 top-24 h-[280px] w-[280px] rounded-full bg-orange-500/15 blur-[110px]"></div>
 
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,120,80,0.08),_transparent_45%),radial-gradient(circle_at_bottom_right,_rgba(255,40,40,0.05),_transparent_30%)]"></div>
+        <div className="absolute left-12 top-28 w-[240px] h-[240px] rounded-[48px] bg-white/5 border border-white/10 backdrop-blur-3xl shadow-[0_0_100px_rgba(255,120,0,0.2)] transform-gpu translate-z-0"></div>
+        <div className="absolute left-24 top-56 w-[140px] h-[140px] rounded-[36px] border border-orange-400/15 bg-orange-500/5 blur-2xl shadow-[0_0_60px_rgba(255,140,0,0.18)]"></div>
+        <div className="absolute left-6 top-[420px] w-[100px] h-[100px] rounded-[28px] bg-white/6 border border-white/10 backdrop-blur-xl shadow-[0_0_50px_rgba(255,80,0,0.15)]"></div>
+
+        <div className="absolute left-14 top-24 h-[1px] w-[220px] bg-gradient-to-r from-[#ff6a2d]/70 via-transparent to-transparent"></div>
+        <div className="absolute left-10 top-64 h-[280px] w-[1px] bg-gradient-to-b from-[#ff6a2d]/40 to-transparent"></div>
+        <div className="absolute left-40 top-10 h-[1px] w-[160px] bg-gradient-to-r from-[#ff8b3d]/30 via-transparent to-transparent"></div>
+        <div className="absolute left-40 top-80 h-[220px] w-[1px] bg-gradient-to-b from-[#ff8b3d]/30 to-transparent"></div>
+
+        <div className="absolute left-12 top-32 w-[100px] h-[100px] rounded-full energy-ring energy-1"></div>
+        <div className="absolute left-24 top-72 w-[76px] h-[76px] rounded-full energy-ring energy-2"></div>
+        <div className="absolute left-8 top-[23rem] w-[120px] h-[120px] rounded-full energy-ring energy-3"></div>
+        <div className="absolute left-20 top-[28.5rem] w-[90px] h-[90px] rounded-full energy-ring energy-4"></div>
+
+        <div className="absolute left-16 top-[10rem] w-[12px] h-[12px] rounded-full glow-point glow-1"></div>
+        <div className="absolute left-32 top-[13rem] w-[10px] h-[10px] rounded-full glow-point glow-2"></div>
+        <div className="absolute left-6 top-[17rem] w-[8px] h-[8px] rounded-full glow-point glow-3"></div>
+        <div className="absolute left-28 top-[21rem] w-[14px] h-[14px] rounded-full glow-point glow-4"></div>
 
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute left-16 top-56 h-[260px] w-[1px] bg-gradient-to-b from-red-400/50 to-transparent"></div>
-          <div className="absolute left-40 top-28 h-[180px] w-[1px] bg-gradient-to-b from-orange-400/40 to-transparent"></div>
-          <div className="absolute left-28 top-96 h-[220px] w-[1px] bg-gradient-to-b from-white/20 to-transparent"></div>
-          <div className="absolute left-10 top-72 h-[1px] w-[180px] bg-gradient-to-r from-red-400/40 to-transparent"></div>
-          <div className="absolute right-24 top-32 h-[1px] w-[210px] bg-gradient-to-r from-orange-400/35 to-transparent"></div>
+          <div className="absolute left-1/2 top-12 h-[250px] w-[1px] bg-gradient-to-b from-[#ff7a30]/40 to-transparent"></div>
+          <div className="absolute left-[18%] top-20 h-[1px] w-[140px] bg-gradient-to-r from-[#ff7a30]/35 via-transparent to-transparent"></div>
+          <div className="absolute left-[12%] top-96 h-[1px] w-[80px] bg-gradient-to-r from-[#ff7a30]/30 via-transparent to-transparent"></div>
+          <div className="absolute left-[22%] top-[22rem] h-[1px] w-[100px] bg-gradient-to-r from-[#ff4e1f]/25 via-transparent to-transparent"></div>
 
           <div className="particle particle-1"></div>
           <div className="particle particle-2"></div>
