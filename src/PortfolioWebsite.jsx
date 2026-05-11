@@ -2,10 +2,29 @@ export default function PortfolioWebsite() {
   return (
     <div className="bg-black text-white min-h-screen overflow-x-hidden scroll-smooth font-sans">
       {/* Nền hoạt hình */}
-      <div className="fixed inset-0 -z-10 overflow-hidden">
-        <div className="absolute top-0 left-0 w-[600px] h-[600px] bg-red-500/20 blur-3xl rounded-full animate-pulse"></div>
-        <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-orange-500/20 blur-3xl rounded-full animate-pulse"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.05),_transparent_70%)]"></div>
+      <div className="fixed inset-0 -z-10 overflow-hidden bg-black">
+        <div className="absolute -left-40 -top-20 w-[680px] h-[680px] bg-red-500/15 blur-[90px] rounded-full"></div>
+        <div className="absolute -right-24 top-8 w-[520px] h-[520px] bg-orange-500/15 blur-[100px] rounded-full"></div>
+
+        <div className="absolute left-16 top-24 w-[260px] h-[240px] rounded-[40px] bg-white/5 border border-white/10 backdrop-blur-2xl shadow-[0_0_80px_rgba(255,120,0,0.2)]"></div>
+        <div className="absolute right-8 top-40 w-[180px] h-[180px] rounded-[40px] border border-orange-400/10 bg-orange-500/5 blur-3xl"></div>
+        <div className="absolute left-8 bottom-10 w-[120px] h-[120px] rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl shadow-[0_0_40px_rgba(255,80,0,0.15)]"></div>
+
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,120,80,0.08),_transparent_45%),radial-gradient(circle_at_bottom_right,_rgba(255,40,40,0.05),_transparent_30%)]"></div>
+
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute left-16 top-56 h-[260px] w-[1px] bg-gradient-to-b from-red-400/50 to-transparent"></div>
+          <div className="absolute left-40 top-28 h-[180px] w-[1px] bg-gradient-to-b from-orange-400/40 to-transparent"></div>
+          <div className="absolute left-28 top-96 h-[220px] w-[1px] bg-gradient-to-b from-white/20 to-transparent"></div>
+          <div className="absolute left-10 top-72 h-[1px] w-[180px] bg-gradient-to-r from-red-400/40 to-transparent"></div>
+          <div className="absolute right-24 top-32 h-[1px] w-[210px] bg-gradient-to-r from-orange-400/35 to-transparent"></div>
+
+          <div className="particle particle-1"></div>
+          <div className="particle particle-2"></div>
+          <div className="particle particle-3"></div>
+          <div className="particle particle-4"></div>
+          <div className="particle particle-5"></div>
+        </div>
       </div>
 
       {/* Thanh điều hướng */}
