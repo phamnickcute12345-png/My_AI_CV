@@ -39,7 +39,21 @@ Phong cách: hiện đại, sạch sẽ, sang trọng, bền vững
    - ví dụ ta muốn đổi các dòng chữ ta chỉ cần ra lệnh: Đổi dòng chữ:"dòng chữ 1" thành "dòng chữ 2". hoặc bạn cũng có thể đổi ảnh bằng cách copy đường dẫn đến ảnh của bạn sau đó ra lệnh cho nó: hãy đổi ảnh ở vị trí A thành: https/::......
 4.3 Copilot
    - khi tôi muốn miêu tả về tôi hay các sản phẩm của tôi thì tôi thường dùng Copilot vì nó làm việc về mảng soản thảo tốt hơn Chat GPT 1 cách chi tiết và có hệ thống hơn.
-   - ví dụ miêu tả ngắn về sản phẩm của tôi, tôi sẽ tải ảnh sản phẩm lên và viết prompt là:" bạn là 1 người diễn thuyết chuyên nghiệp, hãy trình bày sản phẩm này 1 cách đầy đủ và chi tiết các điểm mạnh của nó thành 4 đến 5 dòng."
-5. quá trình chỉnh sửa sản phẩm AI
+   - ví dụ miêu tả ngắn về sản phẩm của tôi, tôi sẽ tải ảnh sản phẩm lên và viết prompt là:" bạn là 1 người diễn thuyết chuyên nghiệp, hãy trình bày sản phẩm này 1 cách đầy đủ và chi tiết các điểm mạnh của nó thành 4 đến 5 dòng."\
+5. tóm tắt quá trình chỉnh sửa sản phẩm AI
 - sau khi codespace đưa ra sản phẩm:
-   - đầu tiên chúng ta sẽ phải sửa lại các đoạn kí tự bị sai hoặc các 
+   - đầu tiên chúng ta sẽ phải sửa lại các đoạn kí tự bị sai hoặc thay đổi các hình ảnh
+   - chỉnh sửa chính tả cũng như các lỗi sai trên hình ảnh và trên sản phẩm Portfolio
+   - sau đó chỉnh sửa các component, các nút thêm hiệu ứng và màu sắc.
+   - sử dụng prompt ra lệnh nó cho AI như Chat GPT để Góp ý, sửa đổi và tạo prompt để đưa vào Github Copilot
+   - sửa dần chúng ta sẽ có được thành quả mong muốn nhưng theo như tôi được biết thì việc sửa đổi sẽ bị giới hạn tại Github Copilot không là 1 sản phẩm Free, nó có số lượt sửa đổi
+6. ý tưởng thiết kế
+- Phần giới thiệu: Họ tên, vai trò nghề nghiệp, câu mô tả ngắn về cá nhân bản thân;
+- Phần giới thiệu bản thân: Thông tin cá nhân, định hướng nghề nghiệp tương lai và các kỹ năng chính;
+- Phần dự án (Projects):
+   - Tên dự án.
+   - Mô tả ngắn về dự án đó.
+   - Hình ảnh minh họa (có sử dụng AI: Chat GPT);
+- Vai trò của sinh viên trong dự án;
+Phần thể hiện kỹ năng hoặc kinh nghiệm trực quan khác;
+Phần liên hệ (Contact): thông tin liên hệ và lời kêu gọi hành động rõ ràng.
