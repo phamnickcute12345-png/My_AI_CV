@@ -201,10 +201,17 @@ export default function PortfolioWebsite() {
                     <span className="px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs">UI/UX</span>
                   </div>
 
-                  <h3 className="text-2xl font-bold">{project === 1 ? 'Thiết kế bao bì sản phẩm' : 'Hồ sơ cao cấp'}</h3>
+                  <h3 className="text-2xl font-bold">
+                    {project === 1 ? 'Thiết kế bao bì sản phẩm' : project === 2 ? 'Photobook' : 'Hồ sơ cao cấp'}
+                  </h3>
 
                   <p className="text-gray-400 leading-relaxed">
-                    Bộ mockup bao bì thực phẩm hữu cơ mang phong cách mộc mạc và thân thiện môi trường, sử dụng tông xanh – nâu tự nhiên kết hợp logo mềm mại tạo cảm giác tươi sạch, organic và gần gũi với người tiêu dùng.
+                    {project === 1
+                      ? 'Bộ mockup bao bì thực phẩm hữu cơ mang phong cách mộc mạc và thân thiện môi trường, sử dụng tông xanh – nâu tự nhiên kết hợp logo mềm mại tạo cảm giác tươi sạch, organic và gần gũi với người tiêu dùng.'
+                      : project === 2
+                      ? 'Khoảnh khắc ghi lại vẻ đẹp trang nghiêm và hiện đại của Dinh Độc Lập dưới bầu trời trong xanh, nổi bật với hàng cờ đỏ và không gian lịch sử mang đậm dấu ấn Việt Nam.'
+                      : 'Trải nghiệm hồ sơ tương lai với hoạt ảnh mượt mà, giao diện glassmorphism và tương tác đắm chìm.'
+                    }
                   </p>
 
                   <button className="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-red-600 to-orange-500 hover:scale-105 transition duration-300">
