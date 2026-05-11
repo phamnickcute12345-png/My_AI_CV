@@ -31,7 +31,7 @@ export default function PortfolioWebsite() {
       <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-xl bg-white/5 border-b border-white/10">
         <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
           <h1 className="text-2xl font-bold tracking-widest bg-gradient-to-r from-red-500 to-orange-400 bg-clip-text text-transparent">
-            HỒ SƠ
+            PORTFOLIO
           </h1>
 
           <ul className="hidden md:flex gap-8 text-sm uppercase tracking-widest">
@@ -244,8 +244,15 @@ export default function PortfolioWebsite() {
       </section>
 
       {/* Kinh nghiệm */}
-      <section id="experience" className="py-32 px-6">
-        <div className="max-w-5xl mx-auto">
+      <section id="experience" className="py-32 px-6 relative overflow-hidden">
+        <div className="absolute left-0 top-1/2 h-full w-full pointer-events-none">
+          <div className="pulse-circle pulse-1"></div>
+          <div className="pulse-circle pulse-2"></div>
+          <div className="pulse-circle pulse-3"></div>
+          <div className="pulse-circle pulse-4"></div>
+        </div>
+
+        <div className="max-w-5xl mx-auto relative">
           <div className="text-center mb-20 space-y-4">
             <div className="inline-block px-4 py-2 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-sm tracking-widest uppercase">
               Kinh nghiệm
