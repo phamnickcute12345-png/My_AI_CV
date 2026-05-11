@@ -175,7 +175,7 @@ export default function PortfolioWebsite() {
             <h2 className="text-5xl font-bold">Chuyên Môn Kỹ Thuật</h2>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8" style={{ perspective: '1200px' }}>
             {[
               { name: 'React', value: '95%' },
               { name: 'UI/UX', value: '90%' },
@@ -184,7 +184,8 @@ export default function PortfolioWebsite() {
             ].map((skill) => (
               <div
                 key={skill.name}
-                className="group p-8 rounded-[30px] border border-white/10 bg-white/5 backdrop-blur-xl hover:-translate-y-2 hover:border-orange-500/30 transition duration-500"
+                className="group p-8 rounded-[30px] border border-white/10 bg-white/5 backdrop-blur-xl transition duration-500 transform-gpu hover:shadow-[0_22px_50px_-22px_rgba(255,113,0,0.85)] hover:border-orange-500/30 hover:-translate-y-2 hover:[transform:rotateY(8deg)_rotateX(4deg)_translateZ(6px)]"
+                style={{ transformStyle: 'preserve-3d' }}
               >
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-xl font-semibold">{skill.name}</h3>
@@ -279,9 +280,13 @@ export default function PortfolioWebsite() {
             {['Chuyên gia thiết kế và chỉnh sửa ảnh', 'Tốt nghiệp trường đại học Gia Định', 'Làm việc tại Garena', 'Trở thành nhà sáng tạo nội dung'].map((job, index) => (
               <div
                 key={job}
-                className="relative p-8 rounded-[30px] border border-white/10 bg-white/5 backdrop-blur-xl"
+                className="experience-card relative p-8 rounded-[30px] border border-white/10 bg-white/5 backdrop-blur-xl"
+                style={{ animationDelay: `${index * 180}ms` }}
               >
-                <div className="absolute -left-[50px] top-10 w-5 h-5 rounded-full bg-gradient-to-r from-red-500 to-orange-400 shadow-[0_0_20px_rgba(255,80,0,0.8)]"></div>
+                <div
+                  className="experience-dot absolute -left-[50px] top-10 w-5 h-5 rounded-full bg-gradient-to-r from-red-500 to-orange-400 shadow-[0_0_20px_rgba(255,80,0,0.8)]"
+                  style={{ animationDelay: `${index * 180}ms` }}
+                ></div>
 
                 <p className="text-orange-400 mb-2">202{index + 3}</p>
                 <h3 className="text-2xl font-bold mb-3">{job}</h3>
