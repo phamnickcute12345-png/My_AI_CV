@@ -1,3 +1,5 @@
+import project1Image from './assets/images/project1.jpg'; // Thay 'project1.jpg' bằng tên file thực tế
+
 export default function PortfolioWebsite() {
   return (
     <div className="bg-black text-white min-h-screen overflow-x-hidden scroll-smooth font-sans">
@@ -189,7 +191,7 @@ export default function PortfolioWebsite() {
               >
                 <div className="overflow-hidden">
                   <img
-                    src={project === 1 ? 'https://drive.google.com/uc?export=view&id=1ghBtPj283g7Yx86yI_2mTPDWzBFiYv9x' : `https://picsum.photos/600/400?random=${project}`}
+                    src={project === 1 ? project1Image : `https://picsum.photos/600/400?random=${project}`}
                     alt="project"
                     className="w-full h-[260px] object-cover group-hover:scale-110 transition duration-700"
                   />
