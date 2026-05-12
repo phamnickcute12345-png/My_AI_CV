@@ -59,6 +59,6 @@ Phong cách: hiện đại, sạch sẽ, sang trọng, bền vững
    - Tên dự án.
    - Mô tả ngắn về dự án đó.
    - Hình ảnh minh họa (có sử dụng AI: Chat GPT);
-- Vai trò của sinh viên trong dự án;
-Phần thể hiện kỹ năng hoặc kinh nghiệm trực quan khác;
-Phần liên hệ (Contact): thông tin liên hệ và lời kêu gọi hành động rõ ràng.
+   - Vai trò của sinh viên trong dự án;
+- Phần thể hiện kỹ năng hoặc kinh nghiệm trực quan khác;
+- Phần liên hệ (Contact): thông tin liên hệ và lời kêu gọi hành động rõ ràng.
