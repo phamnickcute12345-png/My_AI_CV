@@ -14,6 +14,7 @@ Trang hồ sơ React + Tailwind được xây dựng bằng Vite.
    ```
 3. Mở URL được hiển thị trong terminal.
 4. các công cụ AI đã dùng
+
 4.1 ChatGPT
    - dùng Chat GPT để tạo prompt và dùng chính prompt đó để đưa vào trong Codespace để tạo ra sản phẩm trước.
    - ví dụ prompt: Hãy đóng vai là một Senior Frontend Developer + UI/UX Designer + Creative Director. Nhiệm vụ của bạn là hãy viết 1 prompt để tạo ra 1 bản thiết kế và tạo ra một website portfolio cá nhân hiện đại, cao cấp, tối ưu trải nghiệm người dùng (UX) và thẩm mỹ (UI) với đầy đủ hiệu ứng và chức năng.
@@ -34,12 +35,15 @@ Bao gồm:
 Góc máy: chụp phối cảnh 3/4
 Background: studio màu be nhạt tối giản
 Phong cách: hiện đại, sạch sẽ, sang trọng, bền vững
+
 4.2 Github Copilot (Free)
    - nếu chúng ta dùng Chat GPT dùng để sửa bản thiết kế bằng các đoạn code phân mảnh, khi đưa vào Github sẽ bị nhiều lỗi vặt. Do đó đã dùng 1 con AI có sẵn bên trong Github đó là Github Copilot. Nó có thể chỉnh sửa, thêm, xóa và sửa các phần code khó hiểu bên trong 1 cách nhanh gọn và ít lỗi.
    - ví dụ ta muốn đổi các dòng chữ ta chỉ cần ra lệnh: Đổi dòng chữ:"dòng chữ 1" thành "dòng chữ 2". hoặc bạn cũng có thể đổi ảnh bằng cách copy đường dẫn đến ảnh của bạn sau đó ra lệnh cho nó: hãy đổi ảnh ở vị trí A thành: https/::......
+
 4.3 Copilot
    - khi tôi muốn miêu tả về tôi hay các sản phẩm của tôi thì tôi thường dùng Copilot vì nó làm việc về mảng soản thảo tốt hơn Chat GPT 1 cách chi tiết và có hệ thống hơn.
    - ví dụ miêu tả ngắn về sản phẩm của tôi, tôi sẽ tải ảnh sản phẩm lên và viết prompt là:" bạn là 1 người diễn thuyết chuyên nghiệp, hãy trình bày sản phẩm này 1 cách đầy đủ và chi tiết các điểm mạnh của nó thành 4 đến 5 dòng."\
+
 5. tóm tắt quá trình chỉnh sửa sản phẩm AI
 - sau khi codespace đưa ra sản phẩm:
    - đầu tiên chúng ta sẽ phải sửa lại các đoạn kí tự bị sai hoặc thay đổi các hình ảnh
@@ -47,6 +51,7 @@ Phong cách: hiện đại, sạch sẽ, sang trọng, bền vững
    - sau đó chỉnh sửa các component, các nút thêm hiệu ứng và màu sắc.
    - sử dụng prompt ra lệnh nó cho AI như Chat GPT để Góp ý, sửa đổi và tạo prompt để đưa vào Github Copilot
    - sửa dần chúng ta sẽ có được thành quả mong muốn nhưng theo như tôi được biết thì việc sửa đổi sẽ bị giới hạn tại Github Copilot không là 1 sản phẩm Free, nó có số lượt sửa đổi
+  
 6. ý tưởng thiết kế
 - Phần giới thiệu: Họ tên, vai trò nghề nghiệp, câu mô tả ngắn về cá nhân bản thân;
 - Phần giới thiệu bản thân: Thông tin cá nhân, định hướng nghề nghiệp tương lai và các kỹ năng chính;
